@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "title": "Soft Step — Software Development Company",
+    "description": "Soft Step builds backend systems, marketplaces, WordPress commerce sites, and React frontends. See the production projects we've delivered."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "contactCta": "Contact Soft Step"
+  },
+  "hero": {
+    "eyebrow": "Software Development Company · Indonesia",
+    "headline": "From idea to impact, one step at a time.",
+    "sub": "From multi-role marketplace APIs to WordPress commerce and React frontends — delivery focused on what clients can use live.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Contact us",
+    "techLabel": "Built with"
+  },
+  "about": {
+    "eyebrow": "About Soft Step",
+    "title": "Software delivered end to end.",
+    "body": "Soft Step delivers software for businesses that need reliable backends, e-commerce, and web platforms. Work spans Django and NestJS APIs, WordPress and WooCommerce sites, and React frontends — including realtime marketplaces, store integrations, and ongoing site maintenance. The projects below reflect production systems Soft Step has delivered.",
+    "facts": [
+      {
+        "title": "Backend systems",
+        "desc": "Django REST and NestJS APIs running in production, including realtime tracking."
+      },
+      {
+        "title": "Commerce delivery",
+        "desc": "WooCommerce storefronts with mobile app integration via Flutter."
+      },
+      {
+        "title": "WordPress delivery",
+        "desc": "Multi-site builds, migrations, security hardening and maintenance."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What Soft Step builds",
+    "subtitle": "Capabilities derived directly from delivered work — nothing else.",
+    "items": {
+      "backend": {
+        "title": "Backend & API Development",
+        "desc": "Django, Django REST Framework, NestJS and Node.js.",
+        "bullets": ["REST API design", "PostgreSQL & Redis architecture", "OpenAPI documentation"]
+      },
+      "realtime": {
+        "title": "Marketplace & Realtime Systems",
+        "desc": "Multi-role platforms with live data.",
+        "bullets": ["OTP authentication & order lifecycle", "Live GPS tracking with Socket.io", "FCM push notifications"]
+      },
+      "wordpress": {
+        "title": "WordPress & WooCommerce",
+        "desc": "Custom builds and commerce stores.",
+        "bullets": ["Custom themes & plugins", "Elementor Pro implementation", "WooCommerce storefronts"]
+      },
+      "react": {
+        "title": "React Frontends",
+        "desc": "Conversion-focused interfaces.",
+        "bullets": ["Bilingual UI", "Responsive layouts", "WhatsApp ordering flows"]
+      },
+      "ecommerce": {
+        "title": "E-commerce Platforms",
+        "desc": "Stores connected to mobile apps.",
+        "bullets": ["Product catalog & checkout", "Delivery & warranty messaging", "Flutter app integration"]
+      },
+      "maintenance": {
+        "title": "Migration, Performance & Maintenance",
+        "desc": "Keeping platforms fast and secure.",
+        "bullets": ["Site migration", "Security auditing", "Ongoing maintenance"]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Selected Projects",
+    "title": "Projects Soft Step has delivered",
+    "subtitle": "Real, production work — no invented metrics.",
+    "featuredTitle": "Featured Projects",
+    "seeAll": "See all projects",
+    "viewLive": "View live",
+    "viewDetails": "Details",
+    "statusLive": "Live",
+    "statusOffline": "Offline",
+    "statusMixed": "Mixed",
+    "roleLabel": "Role",
+    "stackLabel": "Stack",
+    "featuresLabel": "Key features",
+    "subSitesLabel": "Related sites",
+    "licensedBadge": "Licensed in Indonesia",
+    "mockupMobile": "Mobile app",
+    "mockupDashboard": "Vendor dashboard",
+    "platformEyebrow": "Own Platform",
+    "platformTitle": "SoftStep for Indonesian UMKM",
+    "platformSubtitle": "E-commerce and merchant partner platform built for the Indonesian market.",
+    "resultsCount": "{count} projects",
+    "emptyTitle": "No projects in this category yet.",
+    "emptyDesc": "Try another filter — every project below is a live production delivery.",
+    "wp": {
+      "eyebrow": "WordPress Showcase",
+      "title": "WordPress projects Soft Step has shipped",
+      "subtitle": "Real WordPress deliveries — from commerce to events to business sites.",
+      "seeMore": "Open all WordPress projects",
+      "groups": {
+        "ecommerce": {
+          "label": "E-commerce",
+          "desc": "WooCommerce storefronts and mobile-connected stores."
+        },
+        "events": {
+          "label": "Events & Conferences",
+          "desc": "Booking-friendly event platforms built with Elementor Pro."
+        },
+        "business": {
+          "label": "Business, Real-Estate & Association",
+          "desc": "Custom WordPress builds, migrations and maintenance."
+        }
+      }
+    },
+    "filters": {
+      "all": "All",
+      "backend": "Backend / APIs",
+      "wordpress": "WordPress & Sites",
+      "frontend": "React & Frontend",
+      "ecom": "E-commerce"
+    },
+    "items": {
+      "indoform": {
+        "name": "IndoForm — WhatsApp Commerce Platform for UMKM",
+        "category": "E-commerce / Platform · Indonesia",
+        "tagline": "Your online store, one link away.",
+        "context": "Indonesian Market · Licensed Software Company",
+        "desc": "Soft Step's flagship platform for Indonesian UMKM: a WhatsApp-first storefront where merchants create a shop, share a private link, and receive orders directly on WhatsApp — with QRIS payments, a vendor dashboard, and zero platform commission.",
+        "role": "End-to-end delivery of Soft Step's own UMKM commerce platform — backend, dashboard, storefront and payments.",
+        "features": [
+          "Private, shareable storefront link for every merchant",
+          "WhatsApp-native order flow — customers checkout in ~10 seconds",
+          "QRIS integration for local Indonesian payments",
+          "Vendor dashboard: orders, statuses and tracking numbers",
+          "0% platform commission — merchants keep their revenue",
+          "Scalable API architecture and realtime order tracking"
+        ]
+      },
+      "valleyOrder": {
+        "name": "Valley Order",
+        "category": "Backend / Marketplace API",
+        "tagline": "Multi-role delivery marketplace backend.",
+        "desc": "Production backend powering a delivery marketplace for Customer, Provider, Captain and Admin roles — with authentication, pricing, notifications, order lifecycle and live tracking.",
+        "role": "Backend, API and realtime systems delivery for a multi-role marketplace.",
+        "features": [
+          "Production API for Customer / Provider / Captain / Admin",
+          "OTP SMS authentication",
+          "Dynamic delivery pricing",
+          "FCM notifications",
+          "Coupons and full order lifecycle",
+          "Hybrid live GPS tracking with a NestJS Socket.io sidecar sharing JWT and Postgres",
+          "Landing / legal / support APIs",
+          "OpenAPI docs",
+          "Jazzmin ops admin",
+          "Docker dual-env Dev/Prod",
+          "GitHub Actions CI/CD"
+        ]
+      },
+      "boma": {
+        "name": "Boma Platform",
+        "category": "E-commerce / WordPress / WooCommerce",
+        "tagline": "Syrian e-commerce store for BOMA electrical appliances.",
+        "desc": "Online store for kitchen gadgets, smart home devices and personal-care products, with mobile app integration.",
+        "role": "Commerce website and mobile-connected e-commerce delivery.",
+        "features": [
+          "Product catalog",
+          "Cart / checkout",
+          "Delivery and warranty messaging",
+          "WooCommerce storefront",
+          "Integration with a Flutter mobile app"
+        ]
+      },
+      "gia": {
+        "name": "Gia",
+        "category": "Frontend / React",
+        "tagline": "Restaurant web platform in Bogor, Indonesia.",
+        "desc": "Helps customers browse menu and promos and order via WhatsApp through a bilingual React interface.",
+        "role": "React restaurant frontend focused on conversion and ordering.",
+        "features": [
+          "Digital menu",
+          "Promotions",
+          "Bilingual UI",
+          "WhatsApp ordering flows"
+        ]
+      },
+      "adamEvents": {
+        "name": "Adam Events",
+        "category": "WordPress / Events",
+        "tagline": "WordPress events platform for conferences and exhibitions.",
+        "desc": "Conversion-focused event website with booking-oriented flows and dynamic content for conferences, exhibitions and media coverage.",
+        "role": "Events and conference website delivery on WordPress.",
+        "features": [
+          "Interactive event layouts",
+          "Booking / registration-friendly UX",
+          "Dynamic sections",
+          "Elementor Pro implementation"
+        ]
+      },
+      "kochReal": {
+        "name": "Koch Real",
+        "category": "WordPress / Real Estate",
+        "tagline": "WordPress real-estate platform.",
+        "desc": "Real-estate website delivered as part of Soft Step's WordPress portfolio — custom build with a focus on clean presentation and performance.",
+        "role": "WordPress delivery for a real-estate platform.",
+        "features": [
+          "Custom WordPress build",
+          "Performance optimization",
+          "Ongoing maintenance"
+        ]
+      },
+      "asamena": {
+        "name": "ASAMENA",
+        "category": "WordPress / Association",
+        "tagline": "WordPress platform for an association / organization.",
+        "desc": "Organization website delivered with a clean information architecture and maintainable WordPress setup.",
+        "role": "WordPress delivery for an association platform.",
+        "features": [
+          "Custom WordPress build",
+          "Content structure for an organization",
+          "Ongoing maintenance"
+        ]
+      },
+      "ademixvet": {
+        "name": "Ademixvet",
+        "category": "WordPress / Infrastructure",
+        "tagline": "WordPress infrastructure, frontend adjustments and production optimization.",
+        "desc": "Custom WordPress infrastructure work, frontend adjustments and technical optimizations delivered in production.",
+        "role": "WordPress infrastructure and technical optimization.",
+        "features": [
+          "WordPress infrastructure",
+          "Frontend adjustments",
+          "Production technical optimizations"
+        ]
+      },
+      "gulfPrivate": {
+        "name": "Gulf Private",
+        "category": "WordPress / Development & Infrastructure",
+        "tagline": "Saudi development and infrastructure company website.",
+        "desc": "Corporate WordPress site for Gulf Private (الخليجية الخاصة) — development, infrastructure and real-estate projects with a bilingual Arabic-first presence.",
+        "role": "WordPress corporate site delivery for a Saudi development and infrastructure company.",
+        "features": [
+          "Custom WordPress build",
+          "Projects and services showcase",
+          "Contact and lead-capture flows",
+          "Elementor Pro implementation"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Reach out through any of the channels below, or send a message directly.",
+    "needsInput": "[NEEDS USER INPUT]",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "whatsappIndonesia": "Chat on WhatsApp · Indonesia",
+    "whatsappSyria": "Chat on WhatsApp · Syria",
+    "locationLabel": "Office",
+    "locationValue": "Indonesia",
+    "nibLabel": "NIB (Business ID)",
+    "licenseTitle": "Indonesia business license",
+    "licenseDesc": "Risk-Based Business Licensing (Perizinan Berusaha Berbasis Risiko) — Republic of Indonesia.",
+    "licenseImageAlt": "PT Softstep Inovasi Sistem NIB business license certificate",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formNote": "This form is not yet connected to an email service."
+  },
+  "footer": {
+    "legal": "PT Softstep Inovasi Sistem",
+    "tagline": "Software development company building backends, marketplaces and commerce websites.",
+    "quickLinksTitle": "Quick links",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved."
+  }
+}

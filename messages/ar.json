@@ -273,7 +273,7 @@
     "formEmail": "البريد الإلكتروني",
     "formMessage": "الرسالة",
     "formSubmit": "إرسال الرسالة",
-    "formNote": "هذا النموذج غير مرتبط بعد بخدمة بريد إلكتروني."
+    "formSuccess": "تم الإرسال بنجاح."
   },
   "footer": {
     "legal": "PT Softstep Inovasi Sistem",

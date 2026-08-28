@@ -4,8 +4,6 @@ import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { Send, CheckCircle2 } from "lucide-react";
 
-// TODO: hook up Formspree/EmailJS (or another provider) once Soft Step
-// provides a destination for these submissions. Currently a no-op.
 export default function ContactForm() {
   const t = useTranslations("contact");
   const [sent, setSent] = useState(false);
@@ -19,7 +17,7 @@ export default function ContactForm() {
     return (
       <div className="flex h-full flex-col items-center justify-center rounded-2xl border border-border bg-bg-elev p-10 text-center">
         <CheckCircle2 className="text-cyan" size={32} />
-        <p className="mt-4 text-sm text-text-muted">{t("formNote")}</p>
+        <p className="mt-4 font-medium text-text">{t("formSuccess")}</p>
       </div>
     );
   }
@@ -72,7 +70,6 @@ export default function ContactForm() {
         {t("formSubmit")}
         <Send size={15} className="rtl:-scale-x-100" />
       </button>
-      <p className="text-xs text-text-muted">{t("formNote")}</p>
     </form>
   );
 }

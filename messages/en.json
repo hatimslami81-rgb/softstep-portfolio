@@ -273,7 +273,7 @@
     "formEmail": "Email",
     "formMessage": "Message",
     "formSubmit": "Send message",
-    "formNote": "This form is not yet connected to an email service."
+    "formSuccess": "Message sent successfully."
   },
   "footer": {
     "legal": "PT Softstep Inovasi Sistem",

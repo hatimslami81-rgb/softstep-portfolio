@@ -40,11 +40,17 @@ export default function Header() {
         scrolled ? "glass border-b border-border" : "bg-transparent"
       )}
     >
-      <Container className="flex h-[72px] items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5">
-          <LogoMark size={32} />
-          <Wordmark size="sm" />
-        </Link>
+      <Container className="flex h-[72px] items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center gap-2.5">
+          <Link href="/" className="flex items-center gap-2.5">
+            <LogoMark size={32} />
+            <Wordmark size="sm" />
+          </Link>
+          {/* Mobile: language switch next to the logo (always visible) */}
+          <div className="md:hidden">
+            <LanguageSwitcher compact onLocaleChange={() => setMobileOpen(false)} />
+          </div>
+        </div>
 
         <nav className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
@@ -89,8 +95,7 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <div className="mt-2 flex items-center justify-between gap-3 border-t border-border pt-4">
-              <LanguageSwitcher />
+            <div className="mt-2 border-t border-border pt-4">
               <Button
                 href="/#contact"
                 variant="primary"

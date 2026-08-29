@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { Globe, Check } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { routing, type AppLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 const LOCALES = [
@@ -12,7 +13,13 @@ const LOCALES = [
   { code: "ar", label: "العربية" },
 ] as const;
 
-export default function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
+export default function LanguageSwitcher({
+  compact = false,
+  onLocaleChange,
+}: {
+  compact?: boolean;
+  onLocaleChange?: () => void;
+}) {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
@@ -25,13 +32,30 @@ export default function LanguageSwitcher({ compact = false }: { compact?: boolea
         setOpen(false);
       }
     }
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
     document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("keydown", handleKey);
+    };
   }, []);
 
   function switchLocale(code: string) {
-    router.replace(pathname, { locale: code });
+    if (code === locale) {
+      setOpen(false);
+      return;
+    }
+    if (!(routing.locales as readonly string[]).includes(code)) return;
+
+    // Keep the current path + hash so /projects/indoform#… and /#contact stay put
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    const search = typeof window !== "undefined" ? window.location.search : "";
+    router.replace(`${pathname}${search}${hash}`, { locale: code as AppLocale });
     setOpen(false);
+    onLocaleChange?.();
   }
 
   const current = LOCALES.find((l) => l.code === locale) ?? LOCALES[0];
@@ -43,9 +67,10 @@ export default function LanguageSwitcher({ compact = false }: { compact?: boolea
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-haspopup="listbox"
+        aria-label="Change language"
         className={cn(
           "inline-flex items-center gap-1.5 rounded-full border border-border px-3 py-2 text-xs font-medium text-text-muted transition-colors hover:border-cyan hover:text-cyan",
-          compact && "px-2.5"
+          compact && "px-2.5 py-1.5"
         )}
       >
         <Globe size={14} />
@@ -54,7 +79,12 @@ export default function LanguageSwitcher({ compact = false }: { compact?: boolea
       {open && (
         <ul
           role="listbox"
-          className="absolute end-0 z-50 mt-2 w-44 overflow-hidden rounded-xl border border-border bg-bg-elev py-1 shadow-card"
+          className={cn(
+            "absolute z-50 mt-2 w-44 overflow-hidden rounded-xl border border-border bg-bg-elev py-1 shadow-card",
+            // Next to the logo on mobile: open toward the page center (start).
+            // Desktop (end of header): open toward the header edge (end).
+            compact ? "start-0" : "end-0"
+          )}
         >
           {LOCALES.map((l) => (
             <li key={l.code}>

@@ -2,7 +2,7 @@
  * Soft Step public company & contact facts from official documents and user input.
  */
 export type WhatsAppLine = {
-  id: "indonesia" | "syria";
+  id: "germany" | "indonesia" | "syria";
   display: string;
   e164: string;
 };
@@ -10,6 +10,11 @@ export type WhatsAppLine = {
 export const site = {
   legalName: "PT Softstep Inovasi Sistem",
   whatsapp: [
+    {
+      id: "germany",
+      display: "+49 15562 673415",
+      e164: "4915562673415",
+    },
     {
       id: "indonesia",
       display: "+62 877 2026 0011",
@@ -30,4 +35,13 @@ export const site = {
 
 export function whatsappUrl(e164: string) {
   return `https://wa.me/${e164}`;
+}
+
+export function whatsappLabelKey(id: WhatsAppLine["id"]) {
+  const map = {
+    germany: "whatsappGermany",
+    indonesia: "whatsappIndonesia",
+    syria: "whatsappSyria",
+  } as const;
+  return map[id];
 }

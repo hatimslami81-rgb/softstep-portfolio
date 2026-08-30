@@ -1,33 +1,22 @@
-import { useTranslations } from "next-intl";
 import {
   Server,
-  Radio,
-  Globe,
-  Code2,
   ShoppingCart,
-  Wrench,
+  Smartphone,
+  Cloud,
   type LucideIcon,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Reveal from "@/components/ui/Reveal";
 
-const SERVICE_KEYS = [
-  "backend",
-  "realtime",
-  "wordpress",
-  "react",
-  "ecommerce",
-  "maintenance",
-] as const;
+const SERVICE_KEYS = ["backend", "commerce", "mobile", "devops"] as const;
 
 const ICONS: Record<(typeof SERVICE_KEYS)[number], LucideIcon> = {
   backend: Server,
-  realtime: Radio,
-  wordpress: Globe,
-  react: Code2,
-  ecommerce: ShoppingCart,
-  maintenance: Wrench,
+  commerce: ShoppingCart,
+  mobile: Smartphone,
+  devops: Cloud,
 };
 
 export default function Services() {
@@ -44,14 +33,14 @@ export default function Services() {
           className="mx-auto"
         />
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2">
           {SERVICE_KEYS.map((key, i) => {
             const Icon = ICONS[key];
             const bullets = t.raw(`items.${key}.bullets`) as string[];
             return (
               <Reveal
                 key={key}
-                delay={(i % 3) * 0.08}
+                delay={(i % 2) * 0.08}
                 className="group rounded-2xl border border-border bg-bg-elev p-7 transition-colors duration-200 hover:border-cyan/50"
               >
                 <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-brand-gradient text-white">

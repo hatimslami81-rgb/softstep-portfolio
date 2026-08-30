@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 
 const LOCALES = [
   { code: "en", label: "English" },
+  { code: "de", label: "Deutsch" },
   { code: "id", label: "Bahasa Indonesia" },
   { code: "ar", label: "العربية" },
 ] as const;

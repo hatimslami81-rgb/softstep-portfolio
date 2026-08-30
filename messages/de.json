@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Soft Step — Softwareentwicklungsunternehmen",
+    "description": "Soft Step entwickelt Websites, Online-Shops, mobile Apps und zuverlässige Geschäftssysteme für Kunden in Europa und Asien."
+  },
+  "nav": {
+    "home": "Start",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "contactCta": "Soft Step kontaktieren"
+  },
+  "hero": {
+    "eyebrow": "Softwareunternehmen · Kunden in Europa & Asien",
+    "headline": "Wir machen aus Ihrer Geschäftsidee funktionierende Software.",
+    "sub": "Soft Step konzipiert und baut Websites, Online-Shops, mobile Apps und zuverlässige Systeme, die Ihr Team vom ersten Tag an nutzen kann.",
+    "ctaPrimary": "Projekte ansehen",
+    "ctaSecondary": "Kontakt aufnehmen",
+    "techLabel": "Technologien"
+  },
+  "about": {
+    "eyebrow": "Über Soft Step",
+    "title": "Ein Partner von der Idee bis zum Launch — und danach.",
+    "body": "Soft Step ist ein lizenziertes Softwareunternehmen. Wir helfen Unternehmen online zu gehen — mit klaren, verlässlichen Produkten: Unternehmenswebsites, Online-Shops, mobile Apps und die Systeme dahinter. Wir planen, bauen und übergeben Software, die Mitarbeitende und Kunden wirklich nutzen — mit Unterstützung, wenn Sie sie brauchen.",
+    "facts": [
+      {
+        "title": "Zuverlässige Systeme",
+        "desc": "Bestellabläufe, Konten und Geschäftslogik, die mit Ihrem Wachstum stabil bleiben."
+      },
+      {
+        "title": "Shops & Websites",
+        "desc": "Online-Shops und Unternehmensseiten, die leicht zu pflegen und kundenbereit sind."
+      },
+      {
+        "title": "Apps & Betrieb",
+        "desc": "Mobile Apps und Cloud-Setup, damit Ihr Produkt im Alltag reibungslos läuft."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Was Soft Step für Sie bauen kann",
+    "subtitle": "Vier klare Bereiche — damit Sie genau wissen, wen Sie beauftragen.",
+    "items": {
+      "backend": {
+        "title": "Backend-Systeme",
+        "desc": "Das Fundament Ihres Produkts: sichere Konten, Bestellungen und Geschäftsregeln, die jeden Tag funktionieren.",
+        "bullets": [
+          "Bestell- und Nutzerverwaltung",
+          "Sichere Anmeldung und Benachrichtigungen",
+          "Mit bewährten Technologien wie Django und Nest.js"
+        ]
+      },
+      "commerce": {
+        "title": "E-Commerce & WordPress",
+        "desc": "Online-Shops und professionelle Websites, die Sie aktualisieren können, ohne jedes Mal einen Entwickler zu rufen.",
+        "bullets": [
+          "Produktkataloge und Checkout",
+          "Unternehmens- und Marketingwebsites",
+          "WordPress- und WooCommerce-Shops"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "desc": "Apps für Android und iOS, die mit Ihrem Shop oder Betrieb verbunden sind — mit Flutter und Dart.",
+        "bullets": [
+          "Kunden- und Händler-Apps",
+          "Push-Benachrichtigungen und Bestellstatus",
+          "Anbindung an Website oder Shop"
+        ]
+      },
+      "devops": {
+        "title": "Cloud, DevOps & Datenbanken",
+        "desc": "Wir richten Hosting, Datenbanken und Release-Prozesse ein, damit Ihre Software schnell, sicher und einfach aktualisierbar bleibt.",
+        "bullets": [
+          "Cloud-Hosting und Docker-Setups",
+          "Automatisierte Tests und Deployments",
+          "PostgreSQL und Backup-Praktiken"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Ausgewählte Arbeiten",
+    "title": "Projekte, die Soft Step geliefert hat",
+    "subtitle": "Echte Produkte für echte Kunden — verständlich erklärt.",
+    "featuredTitle": "Ausgewählte Projekte",
+    "seeAll": "Alle Projekte ansehen",
+    "viewLive": "Live ansehen",
+    "viewDetails": "Details",
+    "statusLive": "Online",
+    "statusOffline": "Offline",
+    "statusMixed": "Gemischt",
+    "roleLabel": "Was Soft Step geliefert hat",
+    "stackLabel": "Eingesetzte Technologien",
+    "featuresLabel": "Enthalten",
+    "subSitesLabel": "Verwandte Seiten",
+    "licensedBadge": "Lizenziert in Indonesien",
+    "mockupMobile": "Mobile App",
+    "mockupDashboard": "Händler-Dashboard",
+    "platformEyebrow": "Eigene Plattform",
+    "platformTitle": "SoftStep für indonesische UMKM",
+    "platformSubtitle": "E-Commerce- und Partnerplattform für den indonesischen Markt.",
+    "resultsCount": "{count} Projekte",
+    "emptyTitle": "Noch keine Projekte in dieser Kategorie.",
+    "emptyDesc": "Anderen Filter versuchen — jedes Projekt hier ist echte Kundenarbeit.",
+    "wp": {
+      "eyebrow": "WordPress-Showcase",
+      "title": "WordPress-Projekte von Soft Step",
+      "subtitle": "Echte WordPress-Lieferungen — von Shops über Events bis zu Unternehmensseiten.",
+      "seeMore": "Alle WordPress-Projekte öffnen",
+      "groups": {
+        "ecommerce": {
+          "label": "E-Commerce",
+          "desc": "WooCommerce-Shops und mobile angebundene Stores."
+        },
+        "events": {
+          "label": "Events & Konferenzen",
+          "desc": "Buchungsfreundliche Event-Plattformen mit Elementor Pro."
+        },
+        "business": {
+          "label": "Business, Immobilien & Verbände",
+          "desc": "Individuelle WordPress-Builds, Migrationen und Wartung."
+        }
+      }
+    },
+    "filters": {
+      "all": "Alle",
+      "backend": "Backend / APIs",
+      "wordpress": "WordPress & Sites",
+      "frontend": "React & Frontend",
+      "ecom": "E-Commerce"
+    },
+    "items": {
+      "indoform": {
+        "name": "IndoForm — WhatsApp-Shop für kleine Unternehmen",
+        "category": "Online-Shop · Indonesien",
+        "tagline": "Shop eröffnen, einen Link teilen, Bestellungen per WhatsApp erhalten.",
+        "context": "Indonesischer Markt · Lizenziertes Softwareunternehmen",
+        "desc": "Soft Steps eigene Plattform für indonesische Kleinunternehmen (UMKM): Schaufenster anlegen, privaten Link teilen und Bestellungen über WhatsApp empfangen — mit lokaler QRIS-Zahlung, Verkäufer-Dashboard und ohne Plattformprovision.",
+        "role": "Vollständiger Aufbau der Soft-Step-Shopping-Plattform: Schaufenster, Verkäufer-Tools, Zahlungen und die Systeme dahinter.",
+        "features": [
+          "Privater, teilbarer Shop-Link je Verkäufer",
+          "Bestellung per WhatsApp in etwa 10 Sekunden",
+          "QRIS für indonesische Zahlungen",
+          "Dashboard für Bestellungen und Tracking",
+          "0 % Plattformgebühr — Umsatz bleibt beim Verkäufer",
+          "Live-Status der Bestellung"
+        ]
+      },
+      "valleyOrder": {
+        "name": "Valley Order",
+        "category": "Liefer-Marktplatz · Backend",
+        "tagline": "Das System hinter einem mehrseitigen Lieferservice.",
+        "desc": "Soft Step hat die Kernsoftware für einen Liefer-Marktplatz gebaut — für Kunden, Dienstleister, Fahrer (Captains) und Admins: Login, Preise, Benachrichtigungen, Bestellschritte und Live-Tracking.",
+        "role": "Konzeption und Lieferung der Backend-Systeme, die den Marktplatz im Alltag betreiben.",
+        "features": [
+          "Getrennte Bereiche für Kunde, Anbieter, Captain und Admin",
+          "SMS-Einmalcode-Login",
+          "Dynamische Lieferpreise",
+          "Push-Benachrichtigungen",
+          "Gutscheine und voller Bestellzyklus",
+          "Live-GPS-Tracking",
+          "Landing-, Rechts- und Support-Seiten",
+          "Admin-Betriebsoberfläche",
+          "Getrennte Entwicklungs- und Produktivumgebungen",
+          "Automatisierte Deployment-Pipeline"
+        ]
+      },
+      "boma": {
+        "name": "Boma Platform",
+        "category": "Online-Shop · WordPress",
+        "tagline": "Online-Shop für BOMA-Elektrogeräte.",
+        "desc": "Ein E-Commerce-Shop für Küchengeräte, Smart-Home-Produkte und Körperpflege — mit angebundener mobiler App.",
+        "role": "Shop-Website gebaut und mit einer Flutter-App verbunden.",
+        "features": [
+          "Produktkatalog",
+          "Warenkorb und Checkout",
+          "Liefer- und Garantieinformationen",
+          "WooCommerce-Shop",
+          "Flutter-App-Anbindung"
+        ]
+      },
+      "gia": {
+        "name": "Gia",
+        "category": "Restaurant-Website",
+        "tagline": "Restaurant-Website in Bogor, Indonesien.",
+        "desc": "Eine zweisprachige Website, auf der Gäste Speisekarte und Angebote sehen und per WhatsApp bestellen.",
+        "role": "Restaurant-Website mit Fokus auf klare Bestellung.",
+        "features": [
+          "Digitale Speisekarte",
+          "Aktionen",
+          "Zwei Sprachen",
+          "WhatsApp-Bestellung"
+        ]
+      },
+      "adamEvents": {
+        "name": "Adam Events",
+        "category": "Event-Website · WordPress",
+        "tagline": "Website für Konferenzen und Messen.",
+        "desc": "Eine Event-Seite, die Besuchern Programme erklärt und Anmeldung oder Buchung erleichtert — mit flexiblen Layouts für Konferenzen, Ausstellungen und Medien.",
+        "role": "Vollständige WordPress-Event-Website geliefert.",
+        "features": [
+          "Klare Event-Seitenlayouts",
+          "Anmeldefreundliches Design",
+          "Flexible Inhaltsbereiche",
+          "Umsetzung mit Elementor Pro"
+        ]
+      },
+      "kochReal": {
+        "name": "Koch Real",
+        "category": "Immobilien · WordPress",
+        "tagline": "Website eines Immobilienunternehmens.",
+        "desc": "Eine klare, schnelle WordPress-Site zur Darstellung von Objekten und Unternehmensinformationen.",
+        "role": "Individueller WordPress-Build mit Performance-Betreuung.",
+        "features": [
+          "Individuelle WordPress-Site",
+          "Geschwindigkeitsoptimierung",
+          "Laufende Wartung"
+        ]
+      },
+      "asamena": {
+        "name": "ASAMENA",
+        "category": "Verband · WordPress",
+        "tagline": "Website für einen Verband / eine Organisation.",
+        "desc": "Organisationswebsite mit klarer Struktur für Inhalte und Nachrichten — so gebaut, dass das Team sie dauerhaft pflegen kann. Die öffentliche Seite ist derzeit offline.",
+        "role": "WordPress-Lieferung für den öffentlichen Auftritt des Verbands.",
+        "features": [
+          "Individuelle WordPress-Site",
+          "Inhaltsstruktur für Organisationen",
+          "Laufende Wartung"
+        ]
+      },
+      "ademixvet": {
+        "name": "Ademixvet",
+        "category": "WordPress · Technische Betreuung",
+        "tagline": "Infrastruktur- und Frontend-Verbesserungen für eine WordPress-Site.",
+        "desc": "Soft Step hat die technische Einrichtung verbessert, das Frontend angepasst und den Betrieb für Besucher optimiert.",
+        "role": "WordPress-Infrastruktur und technische Optimierung.",
+        "features": [
+          "WordPress-Infrastruktur",
+          "Frontend-Anpassungen",
+          "Performance- und Stabilitätsverbesserungen"
+        ]
+      },
+      "gulfPrivate": {
+        "name": "Gulf Private",
+        "category": "Unternehmenswebsite · WordPress",
+        "tagline": "Website eines saudischen Entwicklungs- und Infrastrukturunternehmens.",
+        "desc": "Unternehmensauftritt für Gulf Private (الخليجية الخاصة): Projekte, Leistungen und Botschaft mit starker arabischer Präsenz und klaren Kontaktwegen.",
+        "role": "Vollständige WordPress-Unternehmenswebsite.",
+        "features": [
+          "Individueller WordPress-Build",
+          "Projekt- und Leistungspräsentation",
+          "Kontakt- und Anfrageformulare",
+          "Umsetzung mit Elementor Pro"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Sprechen wir über Ihr Projekt",
+    "subtitle": "Schreiben Sie uns per WhatsApp oder senden Sie eine kurze Nachricht über das Formular — wir antworten persönlich.",
+    "needsInput": "[NEEDS USER INPUT]",
+    "emailLabel": "E-Mail",
+    "whatsappLabel": "WhatsApp",
+    "whatsappGermany": "Kontakt per WhatsApp (Deutschland)",
+    "whatsappIndonesia": "Kontakt per WhatsApp (Indonesien)",
+    "whatsappSyria": "Kontakt per WhatsApp (Syrien)",
+    "locationLabel": "Büro",
+    "locationValue": "Indonesien",
+    "nibLabel": "NIB (Unternehmens-ID)",
+    "licenseTitle": "Unternehmenslizenz Indonesien",
+    "licenseDesc": "Risikobasierte Geschäftslizenz (Perizinan Berusaha Berbasis Risiko) — Republik Indonesien.",
+    "licenseImageAlt": "NIB-Geschäftslizenzzertifikat von PT Softstep Inovasi Sistem",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formMessage": "Nachricht",
+    "formSubmit": "Nachricht senden",
+    "formSuccess": "Nachricht erfolgreich gesendet."
+  },
+  "footer": {
+    "legal": "PT Softstep Inovasi Sistem",
+    "tagline": "Softwareunternehmen für Websites, Shops, Apps und zuverlässige Systeme in Europa und Asien.",
+    "quickLinksTitle": "Schnelllinks",
+    "contactTitle": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

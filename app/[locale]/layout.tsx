@@ -66,6 +66,7 @@ export async function generateMetadata({
     alternates: {
       languages: {
         en: "/en",
+        de: "/de",
         id: "/id",
         ar: "/ar",
       },

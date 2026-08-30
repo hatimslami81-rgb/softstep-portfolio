@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Soft Step — Software Development Company",
-    "description": "Soft Step builds backend systems, marketplaces, WordPress commerce sites, and React frontends. See the production projects we've delivered."
+    "description": "Soft Step builds websites, online stores, mobile apps, and reliable business systems for clients in Europe and Asia."
   },
   "nav": {
     "home": "Home",
@@ -12,73 +12,79 @@
     "contactCta": "Contact Soft Step"
   },
   "hero": {
-    "eyebrow": "Software Development Company · Indonesia",
-    "headline": "From idea to impact, one step at a time.",
-    "sub": "From multi-role marketplace APIs to WordPress commerce and React frontends — delivery focused on what clients can use live.",
+    "eyebrow": "Software company · Serving clients in Europe & Asia",
+    "headline": "We turn your business idea into working software.",
+    "sub": "Soft Step designs and builds websites, online stores, mobile apps, and reliable systems your team can use from day one.",
     "ctaPrimary": "View projects",
     "ctaSecondary": "Contact us",
     "techLabel": "Built with"
   },
   "about": {
     "eyebrow": "About Soft Step",
-    "title": "Software delivered end to end.",
-    "body": "Soft Step delivers software for businesses that need reliable backends, e-commerce, and web platforms. Work spans Django and NestJS APIs, WordPress and WooCommerce sites, and React frontends — including realtime marketplaces, store integrations, and ongoing site maintenance. The projects below reflect production systems Soft Step has delivered.",
+    "title": "One partner from idea to launch — and after.",
+    "body": "Soft Step is a licensed software company that helps businesses go online with clear, dependable products: company websites, online shops, mobile apps, and the systems behind them. We plan, build, and hand over software your staff and customers can actually use — with ongoing support when you need it.",
     "facts": [
       {
-        "title": "Backend systems",
-        "desc": "Django REST and NestJS APIs running in production, including realtime tracking."
+        "title": "Reliable systems",
+        "desc": "Order flows, accounts, and business logic that stay stable as you grow."
       },
       {
-        "title": "Commerce delivery",
-        "desc": "WooCommerce storefronts with mobile app integration via Flutter."
+        "title": "Shops & websites",
+        "desc": "Online stores and company sites that are easy to manage and ready for customers."
       },
       {
-        "title": "WordPress delivery",
-        "desc": "Multi-site builds, migrations, security hardening and maintenance."
+        "title": "Apps & operations",
+        "desc": "Mobile apps and cloud setup so your product runs smoothly day to day."
       }
     ]
   },
   "services": {
     "eyebrow": "Services",
-    "title": "What Soft Step builds",
-    "subtitle": "Capabilities derived directly from delivered work — nothing else.",
+    "title": "What Soft Step can build for you",
+    "subtitle": "Four clear areas — so you know exactly who you are hiring.",
     "items": {
       "backend": {
-        "title": "Backend & API Development",
-        "desc": "Django, Django REST Framework, NestJS and Node.js.",
-        "bullets": ["REST API design", "PostgreSQL & Redis architecture", "OpenAPI documentation"]
+        "title": "Backend systems",
+        "desc": "The engine behind your product: secure accounts, orders, and business rules that work every day.",
+        "bullets": [
+          "Order and user management",
+          "Secure login and notifications",
+          "Built with proven tools such as Django and Nest.js"
+        ]
       },
-      "realtime": {
-        "title": "Marketplace & Realtime Systems",
-        "desc": "Multi-role platforms with live data.",
-        "bullets": ["OTP authentication & order lifecycle", "Live GPS tracking with Socket.io", "FCM push notifications"]
+      "commerce": {
+        "title": "E-commerce & WordPress",
+        "desc": "Online shops and professional websites you can update without calling a developer every time.",
+        "bullets": [
+          "Product catalogs and checkout",
+          "Company and marketing websites",
+          "WordPress and WooCommerce stores"
+        ]
       },
-      "wordpress": {
-        "title": "WordPress & WooCommerce",
-        "desc": "Custom builds and commerce stores.",
-        "bullets": ["Custom themes & plugins", "Elementor Pro implementation", "WooCommerce storefronts"]
+      "mobile": {
+        "title": "Mobile apps",
+        "desc": "Apps for Android and iOS that connect to your store or operations — built with Flutter and Dart.",
+        "bullets": [
+          "Customer and vendor apps",
+          "Push notifications and order status",
+          "Connection to your website or shop"
+        ]
       },
-      "react": {
-        "title": "React Frontends",
-        "desc": "Conversion-focused interfaces.",
-        "bullets": ["Bilingual UI", "Responsive layouts", "WhatsApp ordering flows"]
-      },
-      "ecommerce": {
-        "title": "E-commerce Platforms",
-        "desc": "Stores connected to mobile apps.",
-        "bullets": ["Product catalog & checkout", "Delivery & warranty messaging", "Flutter app integration"]
-      },
-      "maintenance": {
-        "title": "Migration, Performance & Maintenance",
-        "desc": "Keeping platforms fast and secure.",
-        "bullets": ["Site migration", "Security auditing", "Ongoing maintenance"]
+      "devops": {
+        "title": "Cloud, DevOps & databases",
+        "desc": "We set up hosting, databases, and release pipelines so your software stays fast, secure, and easy to update.",
+        "bullets": [
+          "Cloud hosting and Docker setups",
+          "Automated testing and deployment",
+          "PostgreSQL and data backup practices"
+        ]
       }
     }
   },
   "projects": {
-    "eyebrow": "Selected Projects",
+    "eyebrow": "Selected work",
     "title": "Projects Soft Step has delivered",
-    "subtitle": "Real, production work — no invented metrics.",
+    "subtitle": "Real products for real clients — explained in plain language.",
     "featuredTitle": "Featured Projects",
     "seeAll": "See all projects",
     "viewLive": "View live",
@@ -86,9 +92,9 @@
     "statusLive": "Live",
     "statusOffline": "Offline",
     "statusMixed": "Mixed",
-    "roleLabel": "Role",
-    "stackLabel": "Stack",
-    "featuresLabel": "Key features",
+    "roleLabel": "What Soft Step delivered",
+    "stackLabel": "Technologies used",
+    "featuresLabel": "What it includes",
     "subSitesLabel": "Related sites",
     "licensedBadge": "Licensed in Indonesia",
     "mockupMobile": "Mobile app",
@@ -98,7 +104,7 @@
     "platformSubtitle": "E-commerce and merchant partner platform built for the Indonesian market.",
     "resultsCount": "{count} projects",
     "emptyTitle": "No projects in this category yet.",
-    "emptyDesc": "Try another filter — every project below is a live production delivery.",
+    "emptyDesc": "Try another filter — every project here is real client work.",
     "wp": {
       "eyebrow": "WordPress Showcase",
       "title": "WordPress projects Soft Step has shipped",
@@ -128,127 +134,126 @@
     },
     "items": {
       "indoform": {
-        "name": "IndoForm — WhatsApp Commerce Platform for UMKM",
-        "category": "E-commerce / Platform · Indonesia",
-        "tagline": "Your online store, one link away.",
-        "context": "Indonesian Market · Licensed Software Company",
-        "desc": "Soft Step's flagship platform for Indonesian UMKM: a WhatsApp-first storefront where merchants create a shop, share a private link, and receive orders directly on WhatsApp — with QRIS payments, a vendor dashboard, and zero platform commission.",
-        "role": "End-to-end delivery of Soft Step's own UMKM commerce platform — backend, dashboard, storefront and payments.",
+        "name": "IndoForm — WhatsApp shop for small businesses",
+        "category": "Online shop · Indonesia",
+        "tagline": "Open a shop, share one link, get orders on WhatsApp.",
+        "context": "Indonesian market · Licensed software company",
+        "desc": "Soft Step’s own platform for Indonesian small businesses (UMKM): create a storefront, share a private link, and receive orders on WhatsApp — with local QRIS payments, a seller dashboard, and no platform commission.",
+        "role": "Full build of Soft Step’s own shopping platform: storefront, seller tools, payments, and the systems behind them.",
         "features": [
-          "Private, shareable storefront link for every merchant",
-          "WhatsApp-native order flow — customers checkout in ~10 seconds",
-          "QRIS integration for local Indonesian payments",
-          "Vendor dashboard: orders, statuses and tracking numbers",
-          "0% platform commission — merchants keep their revenue",
-          "Scalable API architecture and realtime order tracking"
+          "Private shareable shop link for each seller",
+          "Orders via WhatsApp in about 10 seconds",
+          "QRIS for Indonesian payments",
+          "Seller dashboard for orders and tracking",
+          "0% platform fee — sellers keep their revenue",
+          "Live order status updates"
         ]
       },
       "valleyOrder": {
         "name": "Valley Order",
-        "category": "Backend / Marketplace API",
-        "tagline": "Multi-role delivery marketplace backend.",
-        "desc": "Production backend powering a delivery marketplace for Customer, Provider, Captain and Admin roles — with authentication, pricing, notifications, order lifecycle and live tracking.",
-        "role": "Backend, API and realtime systems delivery for a multi-role marketplace.",
+        "category": "Delivery marketplace · Backend",
+        "tagline": "The system behind a multi-sided delivery service.",
+        "desc": "Soft Step built the core software for a delivery marketplace used by customers, service providers, drivers (captains), and admins — including login, pricing, notifications, order steps, and live tracking.",
+        "role": "Designed and delivered the backend systems that power the marketplace day to day.",
         "features": [
-          "Production API for Customer / Provider / Captain / Admin",
-          "OTP SMS authentication",
+          "Separate experiences for customer, provider, captain, and admin",
+          "SMS one-time code login",
           "Dynamic delivery pricing",
-          "FCM notifications",
+          "Push notifications",
           "Coupons and full order lifecycle",
-          "Hybrid live GPS tracking with a NestJS Socket.io sidecar sharing JWT and Postgres",
-          "Landing / legal / support APIs",
-          "OpenAPI docs",
-          "Jazzmin ops admin",
-          "Docker dual-env Dev/Prod",
-          "GitHub Actions CI/CD"
+          "Live GPS tracking",
+          "Landing, legal, and support pages",
+          "Admin operations panel",
+          "Separate development and production environments",
+          "Automated deployment pipeline"
         ]
       },
       "boma": {
         "name": "Boma Platform",
-        "category": "E-commerce / WordPress / WooCommerce",
-        "tagline": "Syrian e-commerce store for BOMA electrical appliances.",
-        "desc": "Online store for kitchen gadgets, smart home devices and personal-care products, with mobile app integration.",
-        "role": "Commerce website and mobile-connected e-commerce delivery.",
+        "category": "Online store · WordPress",
+        "tagline": "Online store for BOMA electrical appliances.",
+        "desc": "An e-commerce website for kitchen gadgets, smart-home devices, and personal-care products, with a mobile app connected to the store.",
+        "role": "Built the store website and connected it to a Flutter mobile app.",
         "features": [
           "Product catalog",
-          "Cart / checkout",
-          "Delivery and warranty messaging",
+          "Cart and checkout",
+          "Delivery and warranty information",
           "WooCommerce storefront",
-          "Integration with a Flutter mobile app"
+          "Flutter mobile app integration"
         ]
       },
       "gia": {
         "name": "Gia",
-        "category": "Frontend / React",
-        "tagline": "Restaurant web platform in Bogor, Indonesia.",
-        "desc": "Helps customers browse menu and promos and order via WhatsApp through a bilingual React interface.",
-        "role": "React restaurant frontend focused on conversion and ordering.",
+        "category": "Restaurant website",
+        "tagline": "Restaurant website in Bogor, Indonesia.",
+        "desc": "A bilingual website where guests browse the menu and promotions and place orders via WhatsApp.",
+        "role": "Designed and built the restaurant website focused on clear ordering.",
         "features": [
           "Digital menu",
           "Promotions",
-          "Bilingual UI",
-          "WhatsApp ordering flows"
+          "Two languages",
+          "WhatsApp ordering"
         ]
       },
       "adamEvents": {
         "name": "Adam Events",
-        "category": "WordPress / Events",
-        "tagline": "WordPress events platform for conferences and exhibitions.",
-        "desc": "Conversion-focused event website with booking-oriented flows and dynamic content for conferences, exhibitions and media coverage.",
-        "role": "Events and conference website delivery on WordPress.",
+        "category": "Events website · WordPress",
+        "tagline": "Website for conferences and exhibitions.",
+        "desc": "An events site that helps visitors understand programmes and register or book — with flexible layouts for conferences, exhibitions, and media coverage.",
+        "role": "Delivered the full WordPress events website.",
         "features": [
-          "Interactive event layouts",
-          "Booking / registration-friendly UX",
-          "Dynamic sections",
-          "Elementor Pro implementation"
+          "Clear event page layouts",
+          "Registration-friendly design",
+          "Flexible content sections",
+          "Built with Elementor Pro"
         ]
       },
       "kochReal": {
         "name": "Koch Real",
-        "category": "WordPress / Real Estate",
-        "tagline": "WordPress real-estate platform.",
-        "desc": "Real-estate website delivered as part of Soft Step's WordPress portfolio — custom build with a focus on clean presentation and performance.",
-        "role": "WordPress delivery for a real-estate platform.",
+        "category": "Real estate · WordPress",
+        "tagline": "Real-estate company website.",
+        "desc": "A clean, fast WordPress site for presenting properties and company information.",
+        "role": "Custom WordPress build with ongoing performance care.",
         "features": [
-          "Custom WordPress build",
-          "Performance optimization",
+          "Custom WordPress site",
+          "Speed improvements",
           "Ongoing maintenance"
         ]
       },
       "asamena": {
         "name": "ASAMENA",
-        "category": "WordPress / Association",
-        "tagline": "WordPress platform for an association / organization.",
-        "desc": "Organization website delivered with a clean information architecture and maintainable WordPress setup.",
-        "role": "WordPress delivery for an association platform.",
+        "category": "Association · WordPress",
+        "tagline": "Website for an association / organization.",
+        "desc": "An organization website with a clear structure for content and news, built so the team can maintain it over time. The public site is currently offline.",
+        "role": "WordPress delivery for the association’s public presence.",
         "features": [
-          "Custom WordPress build",
+          "Custom WordPress site",
           "Content structure for an organization",
           "Ongoing maintenance"
         ]
       },
       "ademixvet": {
         "name": "Ademixvet",
-        "category": "WordPress / Infrastructure",
-        "tagline": "WordPress infrastructure, frontend adjustments and production optimization.",
-        "desc": "Custom WordPress infrastructure work, frontend adjustments and technical optimizations delivered in production.",
+        "category": "WordPress · Technical care",
+        "tagline": "Infrastructure and front-end improvements for a WordPress site.",
+        "desc": "Soft Step improved the site’s technical setup, adjusted the front end, and optimized how it runs for visitors.",
         "role": "WordPress infrastructure and technical optimization.",
         "features": [
-          "WordPress infrastructure",
-          "Frontend adjustments",
-          "Production technical optimizations"
+          "WordPress infrastructure work",
+          "Front-end adjustments",
+          "Performance and stability improvements"
         ]
       },
       "gulfPrivate": {
         "name": "Gulf Private",
-        "category": "WordPress / Development & Infrastructure",
-        "tagline": "Saudi development and infrastructure company website.",
-        "desc": "Corporate WordPress site for Gulf Private (الخليجية الخاصة) — development, infrastructure and real-estate projects with a bilingual Arabic-first presence.",
-        "role": "WordPress corporate site delivery for a Saudi development and infrastructure company.",
+        "category": "Corporate website · WordPress",
+        "tagline": "Website for a Saudi development and infrastructure company.",
+        "desc": "Corporate site for Gulf Private (الخليجية الخاصة): presents projects, services, and company message with a strong Arabic presence and clear contact paths.",
+        "role": "Full WordPress corporate website delivery.",
         "features": [
           "Custom WordPress build",
           "Projects and services showcase",
-          "Contact and lead-capture flows",
+          "Contact and enquiry forms",
           "Elementor Pro implementation"
         ]
       }
@@ -256,13 +261,14 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's talk about your project",
-    "subtitle": "Reach out through any of the channels below, or send a message directly.",
+    "title": "Let’s talk about your project",
+    "subtitle": "Message us on WhatsApp, or send a short note with the form — we reply personally.",
     "needsInput": "[NEEDS USER INPUT]",
     "emailLabel": "Email",
     "whatsappLabel": "WhatsApp",
-    "whatsappIndonesia": "Chat on WhatsApp · Indonesia",
-    "whatsappSyria": "Chat on WhatsApp · Syria",
+    "whatsappGermany": "Contact via WhatsApp (Germany)",
+    "whatsappIndonesia": "Contact via WhatsApp (Indonesia)",
+    "whatsappSyria": "Contact via WhatsApp (Syria)",
     "locationLabel": "Office",
     "locationValue": "Indonesia",
     "nibLabel": "NIB (Business ID)",
@@ -277,7 +283,7 @@
   },
   "footer": {
     "legal": "PT Softstep Inovasi Sistem",
-    "tagline": "Software development company building backends, marketplaces and commerce websites.",
+    "tagline": "Software company building websites, shops, apps, and reliable systems for Europe and Asia.",
     "quickLinksTitle": "Quick links",
     "contactTitle": "Contact",
     "rights": "All rights reserved."

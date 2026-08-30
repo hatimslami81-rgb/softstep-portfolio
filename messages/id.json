@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Soft Step — Perusahaan Pengembangan Perangkat Lunak",
-    "description": "Soft Step membangun sistem backend, marketplace, toko WordPress, dan frontend React. Lihat proyek produksi yang telah kami selesaikan."
+    "description": "Soft Step membangun situs web, toko online, aplikasi mobile, dan sistem bisnis yang andal untuk klien di Eropa dan Asia."
   },
   "nav": {
     "home": "Beranda",
@@ -12,73 +12,79 @@
     "contactCta": "Hubungi Soft Step"
   },
   "hero": {
-    "eyebrow": "Perusahaan Pengembangan Perangkat Lunak · Indonesia",
-    "headline": "Dari ide ke dampak, selangkah demi selangkah.",
-    "sub": "Dari API marketplace multi-peran hingga toko WordPress dan frontend React — kami fokus pada hasil yang benar-benar bisa dipakai klien sejak hari pertama.",
+    "eyebrow": "Perusahaan perangkat lunak · Melayani klien di Eropa & Asia",
+    "headline": "Kami mengubah ide bisnis Anda menjadi perangkat lunak yang siap dipakai.",
+    "sub": "Soft Step merancang dan membangun situs web, toko online, aplikasi mobile, serta sistem andal yang bisa digunakan tim Anda sejak hari pertama.",
     "ctaPrimary": "Lihat proyek",
     "ctaSecondary": "Hubungi kami",
     "techLabel": "Dibangun dengan"
   },
   "about": {
     "eyebrow": "Tentang Soft Step",
-    "title": "Perangkat lunak dari awal hingga selesai.",
-    "body": "Soft Step mengembangkan perangkat lunak untuk bisnis yang membutuhkan backend andal, e-commerce, dan platform web. Lingkup kerja mencakup API Django dan NestJS, situs WordPress dan WooCommerce, serta frontend React — termasuk marketplace realtime, integrasi toko, dan pemeliharaan berkelanjutan. Proyek di bawah ini adalah sistem produksi yang telah Soft Step selesaikan.",
+    "title": "Satu mitra dari ide hingga peluncuran — dan setelahnya.",
+    "body": "Soft Step adalah perusahaan perangkat lunak berizin yang membantu bisnis hadir online dengan produk yang jelas dan andal: situs perusahaan, toko online, aplikasi mobile, dan sistem di baliknya. Kami merencanakan, membangun, dan menyerahkan perangkat lunak yang benar-benar dipakai staf dan pelanggan Anda — dengan dukungan berkelanjutan bila diperlukan.",
     "facts": [
       {
-        "title": "Sistem backend",
-        "desc": "API Django REST dan NestJS yang berjalan di produksi, termasuk pelacakan realtime."
+        "title": "Sistem yang andal",
+        "desc": "Alur pesanan, akun, dan logika bisnis yang tetap stabil saat Anda tumbuh."
       },
       {
-        "title": "E-commerce",
-        "desc": "Toko WooCommerce terintegrasi dengan aplikasi mobile melalui Flutter."
+        "title": "Toko & situs",
+        "desc": "Toko online dan situs perusahaan yang mudah dikelola dan siap untuk pelanggan."
       },
       {
-        "title": "Pengembangan WordPress",
-        "desc": "Pembangunan multi-situs, migrasi, penguatan keamanan, dan pemeliharaan."
+        "title": "Aplikasi & operasi",
+        "desc": "Aplikasi mobile dan penyiapan cloud agar produk Anda berjalan lancar setiap hari."
       }
     ]
   },
   "services": {
     "eyebrow": "Layanan",
-    "title": "Apa yang Soft Step bangun",
-    "subtitle": "Kemampuan yang berasal langsung dari pekerjaan yang telah diselesaikan — tidak lebih.",
+    "title": "Apa yang Soft Step bisa bangun untuk Anda",
+    "subtitle": "Empat area yang jelas — agar Anda tahu persis siapa yang Anda pekerjakan.",
     "items": {
       "backend": {
-        "title": "Pengembangan Backend & API",
-        "desc": "Django, Django REST Framework, NestJS, dan Node.js.",
-        "bullets": ["Desain REST API", "Arsitektur PostgreSQL & Redis", "Dokumentasi OpenAPI"]
+        "title": "Sistem backend",
+        "desc": "Mesin di balik produk Anda: akun aman, pesanan, dan aturan bisnis yang bekerja setiap hari.",
+        "bullets": [
+          "Manajemen pesanan dan pengguna",
+          "Login aman dan notifikasi",
+          "Dengan alat terbukti seperti Django dan Nest.js"
+        ]
       },
-      "realtime": {
-        "title": "Marketplace & Sistem Realtime",
-        "desc": "Platform multi-peran dengan data langsung.",
-        "bullets": ["Autentikasi OTP & siklus pesanan", "Pelacakan GPS langsung dengan Socket.io", "Notifikasi push FCM"]
+      "commerce": {
+        "title": "E-commerce & WordPress",
+        "desc": "Toko online dan situs profesional yang bisa Anda perbarui tanpa memanggil developer setiap saat.",
+        "bullets": [
+          "Katalog produk dan checkout",
+          "Situs perusahaan dan pemasaran",
+          "Toko WordPress dan WooCommerce"
+        ]
       },
-      "wordpress": {
-        "title": "WordPress & WooCommerce",
-        "desc": "Pembangunan kustom dan toko daring.",
-        "bullets": ["Tema & plugin kustom", "Implementasi Elementor Pro", "Toko WooCommerce"]
+      "mobile": {
+        "title": "Aplikasi mobile",
+        "desc": "Aplikasi Android dan iOS yang terhubung ke toko atau operasi Anda — dibangun dengan Flutter dan Dart.",
+        "bullets": [
+          "Aplikasi pelanggan dan penjual",
+          "Notifikasi push dan status pesanan",
+          "Koneksi ke situs atau toko Anda"
+        ]
       },
-      "react": {
-        "title": "Frontend React",
-        "desc": "Antarmuka yang berfokus pada konversi.",
-        "bullets": ["UI dwibahasa", "Tata letak responsif", "Alur pemesanan via WhatsApp"]
-      },
-      "ecommerce": {
-        "title": "Platform E-commerce",
-        "desc": "Toko yang terhubung dengan aplikasi mobile.",
-        "bullets": ["Katalog produk & checkout", "Informasi pengiriman & garansi", "Integrasi aplikasi Flutter"]
-      },
-      "maintenance": {
-        "title": "Migrasi, Performa & Pemeliharaan",
-        "desc": "Menjaga platform tetap cepat dan aman.",
-        "bullets": ["Migrasi situs", "Audit keamanan", "Pemeliharaan berkelanjutan"]
+      "devops": {
+        "title": "Cloud, DevOps & database",
+        "desc": "Kami menyiapkan hosting, database, dan pipeline rilis agar perangkat lunak Anda tetap cepat, aman, dan mudah diperbarui.",
+        "bullets": [
+          "Hosting cloud dan setup Docker",
+          "Pengujian dan deployment otomatis",
+          "PostgreSQL dan praktik cadangan data"
+        ]
       }
     }
   },
   "projects": {
-    "eyebrow": "Proyek Pilihan",
+    "eyebrow": "Karya pilihan",
     "title": "Proyek yang Soft Step telah selesaikan",
-    "subtitle": "Pekerjaan produksi nyata — tanpa metrik fiktif.",
+    "subtitle": "Produk nyata untuk klien nyata — dijelaskan dengan bahasa sederhana.",
     "featuredTitle": "Proyek Unggulan",
     "seeAll": "Lihat semua proyek",
     "viewLive": "Lihat situs",
@@ -86,9 +92,9 @@
     "statusLive": "Aktif",
     "statusOffline": "Nonaktif",
     "statusMixed": "Campuran",
-    "roleLabel": "Peran",
-    "stackLabel": "Teknologi",
-    "featuresLabel": "Fitur utama",
+    "roleLabel": "Apa yang Soft Step kerjakan",
+    "stackLabel": "Teknologi yang digunakan",
+    "featuresLabel": "Yang termasuk",
     "subSitesLabel": "Situs terkait",
     "licensedBadge": "Berizin di Indonesia",
     "mockupMobile": "Aplikasi mobile",
@@ -98,7 +104,7 @@
     "platformSubtitle": "Platform e-commerce dan kemitraan pedagang untuk pasar Indonesia.",
     "resultsCount": "{count} proyek",
     "emptyTitle": "Belum ada proyek pada kategori ini.",
-    "emptyDesc": "Coba filter lain — setiap proyek di sini adalah hasil produksi nyata.",
+    "emptyDesc": "Coba filter lain — setiap proyek di sini adalah pekerjaan klien nyata.",
     "wp": {
       "eyebrow": "Showcase WordPress",
       "title": "Proyek WordPress yang Soft Step telah selesaikan",
@@ -128,127 +134,126 @@
     },
     "items": {
       "indoform": {
-        "name": "IndoForm — Platform Commerce WhatsApp untuk UMKM",
-        "category": "E-commerce / Platform · Indonesia",
-        "tagline": "Toko online Anda, satu tautan saja.",
-        "context": "Pasar Indonesia · Perusahaan Perangkat Lunak Berizin",
-        "desc": "Platform unggulan Soft Step untuk UMKM Indonesia: etalase berbasis WhatsApp di mana penjual membuat toko, membagikan tautan pribadi, dan menerima pesanan langsung lewat WhatsApp — dengan pembayaran QRIS, dasbor penjual, dan tanpa komisi platform.",
-        "role": "Pengembangan menyeluruh platform commerce UMKM milik Soft Step — backend, dasbor, etalase, dan pembayaran.",
+        "name": "IndoForm — Toko WhatsApp untuk usaha kecil",
+        "category": "Toko online · Indonesia",
+        "tagline": "Buka toko, bagikan satu tautan, terima pesanan di WhatsApp.",
+        "context": "Pasar Indonesia · Perusahaan perangkat lunak berizin",
+        "desc": "Platform milik Soft Step untuk UMKM Indonesia: buat etalase, bagikan tautan pribadi, dan terima pesanan di WhatsApp — dengan pembayaran QRIS lokal, dasbor penjual, dan tanpa komisi platform.",
+        "role": "Pembangunan lengkap platform belanja milik Soft Step: etalase, alat penjual, pembayaran, dan sistem di baliknya.",
         "features": [
-          "Tautan etalase pribadi yang bisa dibagikan untuk setiap penjual",
-          "Alur pemesanan native WhatsApp — checkout dalam ~10 detik",
-          "Integrasi QRIS untuk pembayaran lokal Indonesia",
-          "Dasbor penjual: pesanan, status, dan nomor resi",
-          "0% komisi platform — pendapatan penuh untuk penjual",
-          "Arsitektur API skalabel dan pelacakan pesanan realtime"
+          "Tautan toko pribadi yang bisa dibagikan untuk tiap penjual",
+          "Pesanan via WhatsApp dalam sekitar 10 detik",
+          "QRIS untuk pembayaran Indonesia",
+          "Dasbor penjual untuk pesanan dan pelacakan",
+          "0% biaya platform — pendapatan penuh untuk penjual",
+          "Pembaruan status pesanan secara langsung"
         ]
       },
       "valleyOrder": {
         "name": "Valley Order",
-        "category": "Backend / API Marketplace",
-        "tagline": "Backend marketplace pengiriman multi-peran.",
-        "desc": "Backend produksi yang menggerakkan marketplace pengiriman untuk peran Customer, Provider, Captain, dan Admin — dengan autentikasi, penetapan harga, notifikasi, siklus pesanan, dan pelacakan langsung.",
-        "role": "Pengembangan backend, API, dan sistem realtime untuk marketplace multi-peran.",
+        "category": "Marketplace pengiriman · Backend",
+        "tagline": "Sistem di balik layanan pengiriman multi-pihak.",
+        "desc": "Soft Step membangun perangkat lunak inti untuk marketplace pengiriman yang dipakai pelanggan, penyedia layanan, pengemudi (captain), dan admin — termasuk login, harga, notifikasi, langkah pesanan, dan pelacakan langsung.",
+        "role": "Merancang dan menyerahkan sistem backend yang menjalankan marketplace setiap hari.",
         "features": [
-          "API produksi untuk Customer / Provider / Captain / Admin",
-          "Autentikasi OTP SMS",
+          "Pengalaman terpisah untuk pelanggan, penyedia, captain, dan admin",
+          "Login kode sekali pakai via SMS",
           "Harga pengiriman dinamis",
-          "Notifikasi FCM",
+          "Notifikasi push",
           "Kupon dan siklus pesanan penuh",
-          "Pelacakan GPS langsung hybrid dengan sidecar NestJS Socket.io yang berbagi JWT dan Postgres",
-          "API landing / legal / dukungan",
-          "Dokumentasi OpenAPI",
-          "Admin operasional Jazzmin",
-          "Docker dual-env Dev/Prod",
-          "CI/CD GitHub Actions"
+          "Pelacakan GPS langsung",
+          "Halaman landing, legal, dan dukungan",
+          "Panel operasi admin",
+          "Lingkungan pengembangan dan produksi terpisah",
+          "Pipeline deployment otomatis"
         ]
       },
       "boma": {
         "name": "Boma Platform",
-        "category": "E-commerce / WordPress / WooCommerce",
-        "tagline": "Toko e-commerce Suriah untuk peralatan listrik BOMA.",
-        "desc": "Toko daring untuk peralatan dapur, perangkat rumah pintar, dan produk perawatan pribadi, dengan integrasi aplikasi mobile.",
-        "role": "Pengembangan situs dan e-commerce yang terhubung dengan mobile.",
+        "category": "Toko online · WordPress",
+        "tagline": "Toko online untuk peralatan listrik BOMA.",
+        "desc": "Situs e-commerce untuk peralatan dapur, perangkat rumah pintar, dan produk perawatan pribadi, dengan aplikasi mobile yang terhubung ke toko.",
+        "role": "Membangun situs toko dan menghubungkannya ke aplikasi Flutter.",
         "features": [
           "Katalog produk",
-          "Keranjang / checkout",
+          "Keranjang dan checkout",
           "Informasi pengiriman dan garansi",
           "Toko WooCommerce",
-          "Integrasi dengan aplikasi mobile Flutter"
+          "Integrasi aplikasi Flutter"
         ]
       },
       "gia": {
         "name": "Gia",
-        "category": "Frontend / React",
-        "tagline": "Platform web restoran di Bogor, Indonesia.",
-        "desc": "Membantu pelanggan melihat menu dan promo serta memesan via WhatsApp melalui antarmuka React dwibahasa.",
-        "role": "Frontend React restoran yang berfokus pada konversi dan pemesanan.",
+        "category": "Situs restoran",
+        "tagline": "Situs restoran di Bogor, Indonesia.",
+        "desc": "Situs dwibahasa di mana tamu melihat menu dan promo lalu memesan via WhatsApp.",
+        "role": "Merancang dan membangun situs restoran dengan fokus pada pemesanan yang jelas.",
         "features": [
           "Menu digital",
           "Promosi",
-          "UI dwibahasa",
-          "Alur pemesanan via WhatsApp"
+          "Dua bahasa",
+          "Pemesanan WhatsApp"
         ]
       },
       "adamEvents": {
         "name": "Adam Events",
-        "category": "WordPress / Acara",
-        "tagline": "Platform acara WordPress untuk konferensi dan pameran.",
-        "desc": "Situs acara yang berfokus pada konversi, dengan alur berorientasi pemesanan dan konten dinamis untuk konferensi, pameran, dan liputan media.",
-        "role": "Pengembangan situs acara dan konferensi berbasis WordPress.",
+        "category": "Situs acara · WordPress",
+        "tagline": "Situs untuk konferensi dan pameran.",
+        "desc": "Situs acara yang membantu pengunjung memahami program dan mendaftar atau memesan — dengan tata letak fleksibel untuk konferensi, pameran, dan liputan media.",
+        "role": "Menyerahkan situs acara WordPress secara lengkap.",
         "features": [
-          "Tata letak acara interaktif",
-          "UX ramah pemesanan / pendaftaran",
-          "Bagian dinamis",
-          "Implementasi Elementor Pro"
+          "Tata letak halaman acara yang jelas",
+          "Desain ramah pendaftaran",
+          "Bagian konten fleksibel",
+          "Dibangun dengan Elementor Pro"
         ]
       },
       "kochReal": {
         "name": "Koch Real",
-        "category": "WordPress / Properti",
-        "tagline": "Platform properti berbasis WordPress.",
-        "desc": "Situs properti dalam portofolio WordPress Soft Step — pembangunan kustom dengan fokus pada presentasi yang bersih dan performa.",
-        "role": "Pengembangan WordPress untuk platform properti.",
+        "category": "Properti · WordPress",
+        "tagline": "Situs perusahaan properti.",
+        "desc": "Situs WordPress yang bersih dan cepat untuk menampilkan properti dan informasi perusahaan.",
+        "role": "Pembangunan WordPress kustom dengan perawatan performa.",
         "features": [
-          "Pembangunan WordPress kustom",
-          "Optimasi performa",
+          "Situs WordPress kustom",
+          "Peningkatan kecepatan",
           "Pemeliharaan berkelanjutan"
         ]
       },
       "asamena": {
         "name": "ASAMENA",
-        "category": "WordPress / Asosiasi",
-        "tagline": "Platform WordPress untuk asosiasi / organisasi.",
-        "desc": "Situs organisasi dengan arsitektur informasi yang jelas dan pengaturan WordPress yang mudah dirawat.",
-        "role": "Pengembangan WordPress untuk platform asosiasi.",
+        "category": "Asosiasi · WordPress",
+        "tagline": "Situs untuk asosiasi / organisasi.",
+        "desc": "Situs organisasi dengan struktur konten yang jelas untuk berita dan halaman, dibangun agar tim dapat merawatnya dari waktu ke waktu. Situs publik saat ini tidak aktif.",
+        "role": "Pengembangan WordPress untuk kehadiran publik asosiasi.",
         "features": [
-          "Pembangunan WordPress kustom",
+          "Situs WordPress kustom",
           "Struktur konten untuk organisasi",
           "Pemeliharaan berkelanjutan"
         ]
       },
       "ademixvet": {
         "name": "Ademixvet",
-        "category": "WordPress / Infrastruktur",
-        "tagline": "Infrastruktur WordPress, penyesuaian frontend, dan optimasi produksi.",
-        "desc": "Pekerjaan infrastruktur WordPress kustom, penyesuaian frontend, dan optimasi teknis di produksi.",
+        "category": "WordPress · Perawatan teknis",
+        "tagline": "Perbaikan infrastruktur dan frontend untuk situs WordPress.",
+        "desc": "Soft Step memperbaiki penyiapan teknis situs, menyesuaikan frontend, dan mengoptimalkan cara situs berjalan bagi pengunjung.",
         "role": "Infrastruktur WordPress dan optimasi teknis.",
         "features": [
-          "Infrastruktur WordPress",
+          "Pekerjaan infrastruktur WordPress",
           "Penyesuaian frontend",
-          "Optimasi teknis produksi"
+          "Peningkatan performa dan stabilitas"
         ]
       },
       "gulfPrivate": {
         "name": "Gulf Private",
-        "category": "WordPress / Pengembangan & Infrastruktur",
+        "category": "Situs korporat · WordPress",
         "tagline": "Situs perusahaan pengembangan dan infrastruktur Saudi.",
-        "desc": "Situs WordPress korporat untuk Gulf Private (الخليجية الخاصة) — proyek pengembangan, infrastruktur, dan properti dengan kehadiran Arabi yang profesional.",
-        "role": "Pengembangan situs WordPress korporat untuk perusahaan pengembangan dan infrastruktur Saudi.",
+        "desc": "Situs korporat untuk Gulf Private (الخليجية الخاصة): menampilkan proyek, layanan, dan pesan perusahaan dengan kehadiran Arabi yang kuat serta jalur kontak yang jelas.",
+        "role": "Pengembangan situs WordPress korporat secara penuh.",
         "features": [
           "Pembangunan WordPress kustom",
           "Showcase proyek dan layanan",
-          "Alur kontak dan penangkapan prospek",
+          "Formulir kontak dan pertanyaan",
           "Implementasi Elementor Pro"
         ]
       }
@@ -257,12 +262,13 @@
   "contact": {
     "eyebrow": "Kontak",
     "title": "Mari bicarakan proyek Anda",
-    "subtitle": "Hubungi kami melalui salah satu saluran di bawah, atau kirim pesan langsung.",
+    "subtitle": "Hubungi kami di WhatsApp, atau kirim catatan singkat lewat formulir — kami membalas secara pribadi.",
     "needsInput": "[NEEDS USER INPUT]",
     "emailLabel": "Email",
     "whatsappLabel": "WhatsApp",
-    "whatsappIndonesia": "Chat WhatsApp · Indonesia",
-    "whatsappSyria": "Chat WhatsApp · Suriah",
+    "whatsappGermany": "Hubungi via WhatsApp (Jerman)",
+    "whatsappIndonesia": "Hubungi via WhatsApp (Indonesia)",
+    "whatsappSyria": "Hubungi via WhatsApp (Suriah)",
     "locationLabel": "Kantor",
     "locationValue": "Indonesia",
     "nibLabel": "NIB (Nomor Induk Berusaha)",
@@ -277,7 +283,7 @@
   },
   "footer": {
     "legal": "PT Softstep Inovasi Sistem",
-    "tagline": "Perusahaan pengembangan perangkat lunak yang membangun backend, marketplace, dan situs e-commerce.",
+    "tagline": "Perusahaan perangkat lunak yang membangun situs, toko, aplikasi, dan sistem andal untuk Eropa dan Asia.",
     "quickLinksTitle": "Tautan cepat",
     "contactTitle": "Kontak",
     "rights": "Seluruh hak dilindungi."

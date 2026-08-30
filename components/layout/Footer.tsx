@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import Container from "@/components/ui/Container";
 import LogoMark from "@/components/brand/LogoMark";
 import Wordmark from "@/components/brand/Wordmark";
-import { site, whatsappUrl } from "@/lib/site";
+import { site, whatsappUrl, whatsappLabelKey } from "@/lib/site";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -54,15 +54,16 @@ export default function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-text-muted">
             {site.whatsapp.map((line) => (
               <li key={line.id}>
-                {tContact(`whatsapp${line.id === "indonesia" ? "Indonesia" : "Syria"}`)}:{" "}
                 <a
                   href={whatsappUrl(line.e164)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan transition-colors hover:text-cyan/80"
-                  dir="ltr"
                 >
-                  {line.display}
+                  <span className="block text-text-muted">
+                    {tContact(whatsappLabelKey(line.id))}
+                  </span>
+                  <span dir="ltr">{line.display}</span>
                 </a>
               </li>
             ))}
